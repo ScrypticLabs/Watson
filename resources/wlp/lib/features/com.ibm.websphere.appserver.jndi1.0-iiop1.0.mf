@@ -1,0 +1,12 @@
+Subsystem-ManifestVersion: 1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jndi1.0-iiop1.0; visibility:=private
+Subsystem-Version: 1.0.0
+IBM-Feature-Version: 2
+IBM-Provision-Capability: 
+ osgi.identity; filter:="(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.jndi-1.0))",
+ osgi.identity; filter:="(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.iiopcommon-1.0))"
+IBM-Install-Policy: when-satisfied 
+Subsystem-Content: com.ibm.ws.jndi.iiop; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.appLifecycle-1.0; type="osgi.subsystem.feature"
+Subsystem-Type: osgi.subsystem.feature
+IBM-ProductID: com.ibm.websphere.appserver

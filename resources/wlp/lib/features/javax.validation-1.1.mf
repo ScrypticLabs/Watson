@@ -1,0 +1,7 @@
+Subsystem-ManifestVersion: 1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.javax.validation-1.1; singleton:=true
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.javaee.validation.1.1; version="[1,1.0.100)"; location:="dev/api/spec/,lib/"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-ProductID: com.ibm.websphere.appserver

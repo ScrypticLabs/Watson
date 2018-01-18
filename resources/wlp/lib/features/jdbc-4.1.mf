@@ -1,0 +1,18 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: jdbc-4.1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jdbc-4.1; visibility:=public; singleton:=true
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.websphere.appserver.classloading-1.0; type="osgi.subsystem.feature",
+ com.ibm.ws.jdbc; version="[1,1.0.100)", 
+ com.ibm.ws.jdbc41; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.javax.connector.internal-1.7; ibm.tolerates:="1.6"; type="osgi.subsystem.feature", 
+ com.ibm.websphere.appserver.transaction-1.2; ibm.tolerates:="1.1"; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.connectionManagement-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.appLifecycle-1.0; type="osgi.subsystem.feature"
+IBM-Feature-Version: 2
+IBM-API-Package: com.ibm.wsspi.zos.tx; type="internal"
+Subsystem-Type: osgi.subsystem.feature
+Subsystem-Name: Java Database Connectivity 4.1
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

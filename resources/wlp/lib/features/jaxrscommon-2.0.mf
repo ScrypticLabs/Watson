@@ -1,0 +1,35 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: jaxrscommon-2.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jaxrs.common-2.0; visibility:=private
+Subsystem-Version: 1.0.0
+Subsystem-Content:  com.ibm.websphere.appserver.classloading-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.injection-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.containerServices-1.0; type="osgi.subsystem.feature",
+ com.ibm.ws.javaee.jaxrs.2.0; version="[1,1.0.100)"; location:="dev/api/spec/,lib/",
+ com.ibm.websphere.appserver.javax.annotation-1.2; type="osgi.subsystem.feature"; apiJar=false,
+ com.ibm.websphere.appserver.api.jaxrs20_1.0-javadoc.zip; location:="dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.jaxrs20_1.0-javadoc.zip"; type="file",
+ com.ibm.websphere.appserver.api.jaxrs20; version="[1,1.0.100)"; location:="dev/api/ibm/,lib/",
+ com.ibm.ws.org.apache.xml-resolver.1.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.neethi.3.0.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.ws.xmlschema.core.2.0.3; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.javax.mail-1.5; type="osgi.subsystem.feature",
+ com.ibm.ws.jaxrs-2.0.common;version="[1,1.0.100)",
+ com.ibm.ws.jaxrs-2.0.tools;version="[1,1.0.100)",
+ wadl2java; location:="bin/jaxrs/wadl2java"; type="file",
+ wadl2java.bat; location:="bin/jaxrs/wadl2java.bat"; type="file",
+ wadl2java.jar; location:="bin/jaxrs/tools/wadl2java.jar"; type="file",
+ com.ibm.websphere.appserver.globalhandler-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.servlet-3.1; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.json-1.0; type="osgi.subsystem.feature"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-App-ForceRestart: uninstall,install
+IBM-API-Package: javax.ws.rs; type="spec",
+ javax.ws.rs.container; type="spec",
+ javax.ws.rs.core; type="spec", 
+ javax.ws.rs.client; type="spec",
+ javax.ws.rs.ext; type="spec",
+ com.ibm.websphere.jaxrs20.multipart; type="ibm-api",
+ com.ibm.websphere.jaxrs.providers.json4j; type="ibm-api"
+IBM-SPI-Package: com.ibm.wsspi.webservices.handler
+IBM-ProductID: com.ibm.websphere.appserver

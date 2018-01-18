@@ -1,0 +1,16 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: persistentExecutorSubset-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.persistentExecutorSubset-1.0; visibility:=private
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.websphere.appserver.appLifecycle-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.contextService-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jdbc-4.1; type="osgi.subsystem.feature",
+ com.ibm.ws.javaee.concurrent.1.0; version="[1,1.0.100)"; location:="dev/api/spec/,lib/",
+ com.ibm.ws.javaee.platform.defaultresource; version="[1,1.0.100)",
+ com.ibm.ws.persistence-1.0; type="osgi.subsystem.feature",
+ com.ibm.ws.resource; version="[1,1.0.100)",
+ com.ibm.ws.concurrent.persistent; version="[1,1.0.100)"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-ProductID: com.ibm.websphere.appserver

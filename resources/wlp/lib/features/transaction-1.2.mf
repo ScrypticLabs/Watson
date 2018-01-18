@@ -1,0 +1,37 @@
+Subsystem-ManifestVersion: 1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.transaction-1.2;visibility:=protected;singleton:=true
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.tx.jta;  version="[1,1.0.100)", 
+ com.ibm.ws.tx.jta.extensions;  version="[1,1.0.100)", 
+ com.ibm.tx.ltc;  version="[1,1.0.100)", 
+ com.ibm.tx.util;  version="[1,1.0.100)",
+ com.ibm.rls.jdbc;  version="[1,1.0.100)",
+ com.ibm.ws.recoverylog;  version="[1,1.0.100)",
+ com.ibm.ws.transaction.cdi; version="[1,1.0.100)",
+ com.ibm.ws.transaction;  version="[1,1.0.100)",
+ com.ibm.ws.tx.embeddable;  version="[1,1.0.100)", 
+ com.ibm.ws.javaee.connector.1.7;  version="[1,1.0.100)"; location:="dev/api/spec/,lib/"; apiJar=false,  
+ com.ibm.websphere.appserver.javax.annotation-1.2; type="osgi.subsystem.feature"; apiJar=false,
+ com.ibm.websphere.appserver.jta-1.2; type="osgi.subsystem.feature", 
+ com.ibm.websphere.appserver.artifact-1.0; type="osgi.subsystem.feature", 
+ com.ibm.websphere.appserver.javaeedd-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.injection-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.anno-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.containerServices-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javax.servlet-3.0; ibm.tolerates:="3.1"; type="osgi.subsystem.feature"; apiJar=false,
+ com.ibm.ws.cdi-1.2.runtime.extension; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.spi.transaction; version="[1.1,1.1.100)"; location:="dev/spi/ibm/"; type="jar",
+ com.ibm.websphere.appserver.spi.transaction_1.0-javadoc.zip; location:="dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.transaction_1.1-javadoc.zip"; type="file",
+ com.ibm.websphere.appserver.javax.cdi-1.2; type="osgi.subsystem.feature"; apiJar=false
+Subsystem-Type: osgi.subsystem.feature
+IBM-API-Package: javax.transaction;  type="spec",
+ javax.transaction.xa;  type="spec",
+ com.ibm.wsspi.uow;  type="ibm-api",
+ com.ibm.websphere.jtaextensions;  type="ibm-api",
+ com.ibm.websphere.uow;  type="ibm-api",
+ com.ibm.tx.jta;  type="ibm-api",
+ com.ibm.ws.Transaction.resources;  type="internal",
+ com.ibm.ws.LocalTransaction.resources;  type="internal"
+IBM-SPI-Package: com.ibm.wsspi.tx
+IBM-Feature-Version: 2
+IBM-ProductID: com.ibm.websphere.appserver

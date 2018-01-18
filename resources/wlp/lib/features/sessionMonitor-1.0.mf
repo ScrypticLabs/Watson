@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Subsystem-ManifestVersion: 1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.sessionMonitor-1.0
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.session.monitor;  version="[1,1.0.100)",
+ com.ibm.websphere.appserver.api.sessionstats; type=jar; version="[1,1.0.100)"; location:=dev/api/ibm/,
+ com.ibm.websphere.appserver.api.sessionstats_1.0-javadoc.zip; location:="dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.sessionstats_1.0-javadoc.zip"; type="file"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-API-Package: com.ibm.websphere.session.monitor; type="ibm-api",
+IBM-Provision-Capability: osgi.identity; filter:="(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.monitor-1.0))",
+ osgi.identity; filter:="(|(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.servlet-3.0))(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.servlet-3.1)))"
+IBM-Install-Policy: when-satisfied
+IBM-ProductID: com.ibm.websphere.appserver

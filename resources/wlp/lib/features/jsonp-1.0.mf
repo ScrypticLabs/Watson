@@ -1,0 +1,15 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: jsonp-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jsonp-1.0; visibility:=public
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.org.glassfish.json.1.0; version="[1,1.0.100)",
+ com.ibm.ws.javaee.jsonp.1.0; version="[1,1.0.100)"; location:="dev/api/spec/,lib/"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-API-Package: javax.json; type="spec",
+ javax.json.stream; type="spec",
+ javax.json.spi; type="spec"
+Subsystem-Name: JavaScript Object Notation Processing
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

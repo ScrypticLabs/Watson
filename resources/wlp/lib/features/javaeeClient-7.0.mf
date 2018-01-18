@@ -1,0 +1,26 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: javaeeClient-7.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.javaeeClient-7.0; visibility:=public
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.websphere.appclient.appClient-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jaxwsClient-2.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jaxb-2.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jpa-2.1; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jsonp-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javaMail-1.5; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jdbc-4.1; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.managedBeans-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.cdi-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.beanValidation-1.1; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.ejbRemoteClient-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.wasJmsClient-2.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.j2eeManagementClient-1.1; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jndiClient-1.0; type="osgi.subsystem.feature"
+IBM-Feature-Version: 2
+IBM-API-Package: com.ibm.ws.ejb.portable; type="internal"
+Subsystem-Type: osgi.subsystem.feature
+Subsystem-Name: Java EE V7 Application Client
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

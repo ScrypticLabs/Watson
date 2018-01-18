@@ -1,0 +1,7 @@
+{
+  "name": "Web Search on Heroku",
+  "description": "searches and retrieves web queries given parameters from the Parse backend",
+  "image": "heroku/python",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}

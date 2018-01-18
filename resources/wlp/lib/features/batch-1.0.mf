@@ -1,0 +1,33 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: batch-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.batch-1.0; visibility:=public
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.jbatch.container; version="[1,1.0.100)",
+ com.ibm.jbatch.spi; version="[1,1.0.100)", 
+ com.ibm.ws.javaee.batch.1.0; version="[1,1.0.100)"; location:="dev/api/spec/,lib/",
+ com.ibm.websphere.appserver.javaeeCompatible-7.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.contextService-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jdbc-4.1; ibm.tolerates:="4.0"; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jndi-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javax.cdi-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.servlet-3.1; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.security; version="[1,1.0.100)",
+ com.ibm.ws.security.credentials; version="[1,1.0.100)",
+ com.ibm.ws.persistence-1.0; type="osgi.subsystem.feature"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-App-ForceRestart: uninstall,install
+IBM-API-Package: javax.batch.api; type="spec",
+ javax.batch.api.chunk; type="spec",
+ javax.batch.api.chunk.listener; type="spec",
+ javax.batch.api.listener; type="spec",
+ javax.batch.api.partition; type="spec",
+ javax.batch.operations; type="spec",
+ javax.batch.runtime; type="spec",
+ javax.batch.runtime.context; type="spec",
+ javax.inject;  type="spec" 
+Subsystem-Name: Batch API 1.0
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

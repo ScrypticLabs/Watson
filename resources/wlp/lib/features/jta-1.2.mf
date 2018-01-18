@@ -1,0 +1,12 @@
+Subsystem-ManifestVersion: 1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jta-1.2;visibility:=protected;singleton:=true
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.javaee.transaction.1.2; version="[1,1.0.100)"; location:="dev/api/spec/,lib/",
+ com.ibm.websphere.appserver.api.transaction; version="[1.1,1.1.100)"; location:="dev/api/ibm/"; type="jar",
+ com.ibm.websphere.appserver.api.transaction_1.0-javadoc.zip; location:="dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.transaction_1.1-javadoc.zip"; type="file",
+ com.ibm.websphere.appserver.javax.cdi-1.2; type="osgi.subsystem.feature"
+Subsystem-Type: osgi.subsystem.feature
+IBM-API-Package: javax.transaction;  type="spec",
+ javax.transaction.xa;  type="spec"
+IBM-Feature-Version: 2
+IBM-ProductID: com.ibm.websphere.appserver

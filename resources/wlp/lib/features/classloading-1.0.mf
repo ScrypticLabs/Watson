@@ -1,0 +1,16 @@
+Subsystem-ManifestVersion: 1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.classloading-1.0;visibility:=protected
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.classloading; version="[1.1,1.1.100)",
+ com.ibm.websphere.appserver.dynamicBundle-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.artifact-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.containerServices-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.spi.classloading; version="[1.2,1.2.100)"; location:="dev/spi/ibm/"; type="jar",
+ com.ibm.websphere.appserver.spi.classloading_1.2-javadoc.zip; location:="dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.classloading_1.2-javadoc.zip"; type="file",
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-SPI-Package: com.ibm.wsspi.classloading,
+ com.ibm.wsspi.classloading,
+ com.ibm.wsspi.library
+IBM-Process-Types: server,client
+IBM-ProductID: com.ibm.websphere.appserver

@@ -1,0 +1,17 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: ejbRemote-3.2
+Subsystem-SymbolicName: com.ibm.websphere.appserver.ejbRemote-3.2; visibility:=public
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.ejbcontainer.remote; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.ejbLite-3.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.iioptransport-1.0; type="osgi.subsystem.feature",
+ ejbRemotePortable.jar; location:="clients/ejbRemotePortable.jar"; type="file",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature"
+IBM-Feature-Version: 2
+IBM-API-Package: com.ibm.ws.ejb.portable; type="internal"
+Subsystem-Type: osgi.subsystem.feature
+IBM-App-ForceRestart: install,uninstall
+Subsystem-Name: Enterprise JavaBeans Remote 3.2
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

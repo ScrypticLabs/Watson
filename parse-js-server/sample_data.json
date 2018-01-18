@@ -1,0 +1,23 @@
+{u'result': 
+	[
+	{u'objectId': u'55SS6DVC8j', u'text': u'He was gunna eat his lunch', u'className': u'Chat', u'__type': u'Object', 
+		u'user': {u'className': u'_User', u'__type': u'Pointer', u'objectId': u'jf8LvHlSIx'}, 
+		u'updatedAt': {u'iso': u'2015-09-12T20:03:30.989Z', u'__type': u'Date'}, 
+		u'groupId': u'h0bFXM69w8jf8LvHlSIx', 
+		u'createdAt': {u'iso': u'2015-09-12T20:03:30.989Z', u'__type': u'Date'}
+		}, 
+
+	{u'objectId': u'x92Qj66Rfr', u'text': u'ok sorry about that', u'className': u'Chat', u'__type': u'Object', 
+		u'user': {u'className': u'_User', u'__type': u'Pointer', u'objectId': u'h0bFXM69w8'}, 
+		u'updatedAt': {u'iso': u'2015-09-12T20:04:22.541Z', u'__type': u'Date'}, 
+		u'groupId': u'h0bFXM69w8jf8LvHlSIx', 
+		u'createdAt': {u'iso': u'2015-09-12T20:04:22.541Z', u'__type': u'Date'}
+		}, 
+
+	{u'objectId': u'Ad4oTzMrlk', u'text': u'Not', u'className': u'Chat', u'__type': u'Object', 
+		u'user': {u'className': u'_User', u'__type': u'Pointer', u'objectId': u'jf8LvHlSIx'}, 
+		u'updatedAt': {u'iso': u'2015-09-12T20:04:52.645Z', u'__type': u'Date'}, 
+		u'groupId': u'h0bFXM69w8jf8LvHlSIx', 
+		u'createdAt': {u'iso': u'2015-09-12T20:04:52.645Z', u'__type': u'Date'}}
+	]
+}

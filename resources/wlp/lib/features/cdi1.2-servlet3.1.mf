@@ -1,0 +1,10 @@
+Subsystem-ManifestVersion: 1
+Subsystem-SymbolicName: com.ibm.websphere.appserver.cdi1.2-servlet3.1; visibility:=private
+Subsystem-Version: 1.0.0
+IBM-Provision-Capability: osgi.identity; filter:="(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.cdi-1.2))", osgi.identity; filter:="(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.servlet-3.1))" 
+IBM-Install-Policy: when-satisfied
+Subsystem-Content: com.ibm.ws.javaee.jsp.2.3; version="[1,1.0.100)"; location:="dev/api/spec/,lib/",
+ com.ibm.ws.cdi-1.2.web; version="[1,1.0.100)"
+IBM-Feature-Version: 2
+Subsystem-Type: osgi.subsystem.feature
+IBM-ProductID: com.ibm.websphere.appserver

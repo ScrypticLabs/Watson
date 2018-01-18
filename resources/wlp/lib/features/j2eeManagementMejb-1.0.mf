@@ -1,0 +1,14 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: j2eeManagementMejb-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.j2eeManagementMejb-1.0; visibility:=private;
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.management.j2ee.mejb; version="[1,1.0.100)"
+IBM-Provision-Capability: osgi.identity; filter:="(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.j2eeManagement-1.1))",
+  osgi.identity; filter:="(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.ejbRemote-3.2))"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+Subsystem-Name: J2EE Management MEJB
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-Install-Policy: when-satisfied
+IBM-ProductID: com.ibm.websphere.appserver

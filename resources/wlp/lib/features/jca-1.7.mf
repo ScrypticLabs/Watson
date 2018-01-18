@@ -1,0 +1,25 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: jca-1.7
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jca-1.7; visibility:=public; singleton:=true
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.websphere.appserver.internal.jca-1.6; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javax.connector-1.7; type="osgi.subsystem.feature",
+ com.ibm.ws.jca-1.7; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.javaeePlatform-7.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javaeeCompatible-7.0; type="osgi.subsystem.feature",
+ com.ibm.ws.app.manager.rar; version="[1,1.0.100)"
+Subsystem-Type: osgi.subsystem.feature
+IBM-API-Package: com.ibm.ws.jca.service; type="internal",
+ javax.resource; type="spec", 
+ javax.resource.cci; type="spec",
+ javax.resource.spi; type="spec",
+ javax.resource.spi.endpoint; type="spec",
+ javax.resource.spi.security; type="spec",
+ javax.resource.spi.work; type="spec"
+IBM-Feature-Version: 2
+Subsystem-Name: Java Connector Architecture 1.7
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+Subsystem-Category: JavaEE7Application
+IBM-ProductID: com.ibm.websphere.appserver

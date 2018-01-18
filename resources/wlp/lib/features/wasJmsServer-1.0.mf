@@ -1,0 +1,22 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: wasJmsServer-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.wasJmsServer-1.0; visibility:=public
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.messaging.runtime; version="[1,1.0.100)",
+ com.ibm.ws.messaging.comms.client; version="[1,1.0.100)",
+ com.ibm.ws.messaging.comms.server; version="[1,1.0.100)",
+ com.ibm.ws.messaging.msgstore; version="[1,1.0.100)",
+ com.ibm.ws.messaging.utils; version="[1,1.0.100)",
+ com.ibm.ws.messaging.security.common; version="[1,1.0.100)",
+ com.ibm.ws.messaging.common; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.transaction-1.1; ibm.tolerates:="1.2"; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.channelfw-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.api.messaging; version="[1,1.0.100)"; location:="dev/api/ibm/"; type="jar",
+ com.ibm.websphere.appserver.api.messaging_1.0-javadoc.zip; location:="dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.messaging_1.0-javadoc.zip"; type="file",
+Subsystem-Type: osgi.subsystem.feature
+IBM-API-Package: com.ibm.websphere.messaging.mbean; type="ibm-api"
+IBM-Feature-Version: 2
+Subsystem-Name: Message Server 1.0
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

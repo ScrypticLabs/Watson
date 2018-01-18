@@ -1,0 +1,14 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: client-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appclient.client-1.0; visibility:=private
+Subsystem-Version: 1.0.0
+Subsystem-Content: client; location:="bin/client"; type="file",
+ client.bat; location:="bin/client.bat"; type="file",
+ ws-client.jar; location:="bin/tools/ws-client.jar"; type="file"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+Subsystem-Name: Liberty client
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-Process-Types: client,server
+IBM-ProductID: com.ibm.websphere.appserver

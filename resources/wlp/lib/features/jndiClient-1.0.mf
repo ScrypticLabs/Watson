@@ -1,0 +1,15 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: jndiClient-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jndiClient-1.0; visibility:=private
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.jndi.remote.client; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.clientContainerRemoteSupportCommon-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javax.cdi-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jndi-1.0; type="osgi.subsystem.feature"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+Subsystem-Name: Java Naming and Directory Interface Client
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

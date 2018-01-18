@@ -1,0 +1,21 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: mdb-3.2
+Subsystem-SymbolicName: com.ibm.websphere.appserver.mdb-3.2; visibility:=public; singleton:=true
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.ejbcontainer.mdb; version="[1,1.0.100)",
+ com.ibm.ws.ejbcontainer.v32; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.ejbCore-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javaeePlatform-7.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javax.ejb-3.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.jca-1.7; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javax.interceptor-1.2; type="osgi.subsystem.feature"
+IBM-Feature-Version: 2
+IBM-API-Package: com.ibm.ws.ejbcontainer.mdb; type="internal"
+Subsystem-Type: osgi.subsystem.feature
+IBM-App-ForceRestart: install,uninstall
+Subsystem-Name: Message-Driven Beans 3.2
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+Subsystem-Category: JavaEE7Application
+IBM-ProductID: com.ibm.websphere.appserver

@@ -1,0 +1,51 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: jsp-2.3
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jsp-2.3; visibility:=public; singleton:=true
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.websphere.appserver.javax.jsp-2.3; type="osgi.subsystem.feature", 
+ com.ibm.ws.javaee.jstl.1.2; version="[1,1.0.100)"; location:="dev/api/spec/,lib/",
+ com.ibm.ws.jsp; version="[1,1.0.100)",
+ com.ibm.ws.jsp23; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.javax.el-3.0; type="osgi.subsystem.feature", 
+ com.ibm.websphere.appserver.spi.jsp; version="[1,1.0.100)"; location:="dev/spi/ibm/"; type="jar",
+ com.ibm.websphere.appserver.spi.jsp_1.0-javadoc.zip; location:="dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.jsp_1.0-javadoc.zip"; type="file",
+ com.ibm.ws.org.eclipse.jdt.core.3.10.0.v20140902-0626; version="[1,1.0.100)", 
+ com.ibm.websphere.appserver.el-3.0; type="osgi.subsystem.feature", 
+ com.ibm.websphere.appserver.servlet-3.1; type="osgi.subsystem.feature",
+ com.ibm.ws.javaee.jsp.tld.2.2; version="[1.1,1.1.100)"; location:="dev/api/spec/"; type="jar"
+Subsystem-Type: osgi.subsystem.feature
+IBM-API-Package: javax.servlet.jsp;  type="spec",
+ javax.servlet.jsp.el;  type="spec",
+ javax.servlet.jsp.tagext;  type="spec",
+ javax.servlet.jsp.jstl.sql;  type="spec",
+ javax.servlet.jsp.jstl.tlv;  type="spec",
+ javax.servlet.jsp.jstl.core;  type="spec",
+ javax.servlet.jsp.jstl.fmt;  type="spec",
+ javax.el;  type="spec",
+ com.ibm.ws.jsp;  type="internal",
+ com.ibm.ws.jsp.runtime;  type="internal",
+ org.apache.jasper.runtime;  type="internal",
+ org.apache.taglibs.standard;  type="internal",
+ org.apache.taglibs.standard.tag.common.core;  type="internal",
+ org.apache.taglibs.standard.tag.common.fmt;  type="internal",
+ org.apache.taglibs.standard.tag.common.sql;  type="internal",
+ org.apache.taglibs.standard.tag.common.xml;  type="internal",
+ org.apache.taglibs.standard.tag.el.core;  type="internal",
+ org.apache.taglibs.standard.tag.el.fmt;  type="internal",
+ org.apache.taglibs.standard.tag.el.sql;  type="internal",
+ org.apache.taglibs.standard.tag.el.xml;  type="internal",
+ org.apache.taglibs.standard.functions;  type="internal",
+ org.apache.taglibs.standard.tag.rt.core;  type="internal",
+ org.apache.taglibs.standard.tag.rt.fmt;  type="internal",
+ org.apache.taglibs.standard.tag.rt.sql;  type="internal",
+ org.apache.taglibs.standard.tag.rt.xml;  type="internal",
+ org.apache.el;  type="internal",
+ org.apache.el.lang;  type="internal",
+ org.apache.jasper.el;  type="internal"
+IBM-SPI-Package:  com.ibm.wsspi.jsp.taglib.config
+IBM-Feature-Version: 2
+IBM-App-ForceRestart: install,uninstall
+Subsystem-Name: JavaServer Pages 2.3
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver

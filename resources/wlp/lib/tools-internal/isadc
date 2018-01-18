@@ -1,0 +1,29 @@
+# This script should only be invoked by the wlp/bin/isadc script.
+
+if [ "$1" = -help ]; then
+  toolJavaCmd -help
+  exit $?
+fi
+
+# Calling the  ISADC Collector tool if its been set in the WAS_ISADC_DIR
+
+if [ -f "${WAS_ISADC_DIR}"/isadc.sh ]; then
+  "${WAS_ISADC_DIR}"/./isadc.sh
+  exit $?
+fi
+
+
+WAS_ISADC_DIR=${WLP_INSTALL_DIR}/../lib/was-isadc
+
+if [ ! -d "${WAS_ISADC_DIR}"/was_liberty ]; then
+  toolJavaCmd -error
+  exit $?
+fi
+
+case $uname in
+CYGWIN_*) script=isadc_liberty.bat;;
+OS400) script=isadc_liberty;;
+*) script=isadc_liberty.sh
+esac
+
+exec "${WAS_ISADC_DIR}"/isadc/${script} -outputzip "${HOME}"/WLP-ISADC.zip -collectorBase "${WAS_ISADC_DIR}"/was_liberty "$@"

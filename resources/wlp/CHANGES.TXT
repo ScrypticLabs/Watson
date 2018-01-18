@@ -1,0 +1,86 @@
+PI45942 Creating a new server can result in a server.env file being generated in the wrong place
+PI45536 The Liberty profile cache monitor does not work with application security enabled.
+PI46281 NullPointerException in batch JobOperatorImpl after dynamic server configuration change involving batch or its dependencies.
+PI46422 Installation Manager unable to install assets from instance of the Liberty Asset Repository Service with no internet connection
+PI46326 Performance Improvement on application startup
+PI38852 Z/OS CONNECT IN LIBERTY IS NOT RECOGNIZING THE MAPPED RACF USERID IS A MEMBER OF A GROUP
+PI33395 NullPointerException thrown by UDP channel when stopping server.
+PI47146 CDI does not correctly verify and publish events for JEE Component Classes which support injection
+PI47206 JSONConverter incorrectly de-serializes MBeanServerNotificationFilter
+PI46623 When using the jpa-2.1 feature, an entity containing a lazy field may fail to deserialize
+PI46420 Installing Liberty v8.5.5.6 with features or addons using Installation Manager in silent mode fails due to out of disk space
+PI47142 Improve collectives replica reconfiguration performance by improving internal storage structure in Frappe.
+PI44057 There is an increased performance overhead for users of the SSL feature in Liberty profile
+PI38788 Hung thread caused by MyFaces
+PI45777 The configuration schema does not include a default value for the 'optional' attribute on the 'include' element.
+PI45470 ABEND S478 RC=4 WHEN TRYING TO STOP THE SERVER.
+PI45472 ABEND0C4 when running batchManagerZos from a dataset
+PI43382 Product validation error using featureManager to install an add-on, such as extendedPackage-1.0 or javaee-7.0
+PI43583 Logout fails due to ConcurrentModificationException in high-stress, multi-threaded environment.
+PI46378 Collective and cluster member started/stopped state not promptly updated.
+PI45007 Allow the user to specify the TLS_CLIENT_CERTIFICATE_SECURITY option on the securityMechanism property on properties.db2.jcc
+PI43768 Remove SSL_RSA_FIPS_WITH_3DES_EDE_CBC_SHA from the strong cipher list.
+PI46563 Update WebSphere Application Server Liberty profile V8.5.5.7 licenses
+PI40544 CDI decorator for an interface must directly implement can not inherit from a super class
+PI46475 IIOP/CSIv2 may fail to start correctly due to missing UserRegistry
+PI44185 Stopping Liberty profile 8.5.5.5 controller from the Admin Center causes error
+PI46436 Wrong media type for the response when using JAXRS-2.0
+PI46472 LdapRegistry does not work when the search results cache is defined as <searchResultsCache enabled="true" />
+PI41611 Collective controller returns garbled stdout of ServerCommands to JXM client
+PI47138 Default welcome page uses 'Beta' description for supported server
+PI46433 FFDC is produced for a NullPointerException in com.ibm.ws.tcpchannel.internal.SocketRWChannelSelector.updateSelector.
+PI43122 ValidationException occurs when using JAX-RS and more than one validation.xml
+PI41941 Improve error messages SRVE9002E and SRVE8011E
+PI44214 getParameter() does not work after getReader()
+PI46922 Request timing doesn't work with Java EE 7 features
+PI42281 Suppress SRVE0255E error message in systemout trace
+PI41064 Security vulnerability in module angel_fixed_shim_pc.mc (W424)
+PI36179 ReInvites are frequently canceled with NullPointerExceptions
+PI42394 THREADS IN LIBERTY SERVER MAY RUN UNDER THE SERVER STARTED TASK ID INSTEAD OF THE USERID USED TO LOGON
+PI47287 Potential memory leak when both validation 1.1 and CDI 1.2 features are enabled.
+PI45743 ServiceException when stopping the server immediately after a configuration update
+PI43277 Dynamic switching from polled to mbean (and vice versa) config monitoring doesn't work.
+PI44096 binarylog command causes java.lang.NullPointerException
+PI43224 The authData configuration element needs enhancing to include alias and database in its description.
+PI45511 Expose the org.apache.openjpa.lib.rop package in the jpa-2.0 feature to enable the serialization/deserialization of ResultLists.
+PI37749 JDBC Wrapper implementation of ResultSet.isClosed returns false after DB2 JCC driver has closed the ResultSet
+PI42710 javax.xml.bind.UnmarshalException: unexpected element can occur on first request
+PI42817 HTTP Channel prints FFDCs for MalformedMessageExceptions and IllegalStateExceptions while parsing request message
+PI38734 ADD MAPPED SAF IDENTITY TO THE SMF 120 SUBTYPE 11 RECORDS
+PI46803 Server with IIOP clients fills heap and throws OutOfMemoryError
+PI46639 Name given to a bean with @Named annotation is not the correct default if it begins with two or more capitals
+PI43692 A java.lang.ClassNotFoundException can occur when the session is invalidated and the jsf-2.2 feature is being used.
+PI44461 Must not call getClob for PostgreSQL
+PI46300 A call to the Batch REST interface to restart a job fails when the job was previously started via the JobOperator.
+PI42819 Collective join or replicate with --useHostCredentials option completes even if host credentials are missing.
+PI46748 Enabling security through adminSecurity-1.0 may cause Servlets to not configure completely
+PI41230 LIBERTY 'COLLECTIVECONTROLLER REPLICAPORT' LIMITS SIZE OF PORT NUMBER
+PI46303 Issuing a STOP command to a Batch job does not result in the job being in the STOPPED state.
+PI35277 Server not responding to Continue message as expected
+PI47351 If the appSecurity feature is installed no application will start unless SSL and a UserRegistry are configured correctly.
+PI45878 Injected parameters passed in wrong order
+PI43130 Enable strict checking of a single validation.xml file per application classpath.
+PI28387 After a configuration update a web request may temporarily result in an error
+PI46543 Future.get hangs when attempted from taskSubmitted/taskStarting of tasks scheduled via a ManagedScheduledExecutorService.
+PI45499 The webCacheMonitor feature does not work with JSP 2.3.
+PI44958 Exceptions when requestTiming is re-enabled
+PI46545 Add exception to security error message CWWKS1102E.
+PI38723 NullPointerException generated by Apache wink library when processing HEAD requests
+PI37396 Potential spoofing vulnerability in WebSphere Application Server CVE-2015-4938
+PI45839 Missing translatable message for error path where invalid valid is specified for a numeric connector property
+PI45838 A scaling member logs an FFDC with IllegalArgumentException during server shutdown
+PI46415 Updating Liberty using Installation Manager on z/OS requires a large amount of disk space.
+PI47153 Liberty profile performance issue when using @postContruct and @preDestory annotations in servlets
+PI46454 UserRegistry getUsers method does not use LDAP userFilter configuration specified in the server configuration
+PI47155 File transfer could sometimes fail due to controller deleting the file before the transfer is complete
+PI43359 Javadoc relating to isServerSecurityEnabled needs to be updated to apply to its function in Liberty profile
+PI46612 Server dump command fails when a Java dump file cannot be found.
+PI42400 OSGi applications that contain blueprint.xml in bundle fragments do not start after Liberty update to 8.5.5.5
+PI46615 The same class appearing in multiple war files might cause the wrong bean manager to be returned.
+PI46747 Batch status of an instance is in STARTING when instance state is FAILED
+PI46745 A retry with rollback performed before the first checkpoint is taken causes a NullPointerException to be thrown.
+PI46936 FileTransferMBean.deleteFile(String) may not be able to delete an empty directory on IBM i operating systems
+PI40556 WebServiceContext is lost, resulting in a NullPointerException
+PI45842 ABEND S478 RC=4 WHEN TRYING TO STOP THE SERVER SP231
+PI43401 Incorrect error message when host authentication credentials cannot be retrieved by collective controller.
+PI38116 Provide option to not flush internal response objects in FileServletWrapper.

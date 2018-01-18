@@ -1,0 +1,14 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: requestProbes-1.0
+Subsystem-SymbolicName: com.ibm.websphere.appserver.requestProbes-1.0; visibility:=protected
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.request.probes; version="[1,1.0.100)"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-Provision-Capability: osgi.identity; filter:="(|(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.jdbc-4.1))(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.servlet-3.1))(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.jdbc-4.0))(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.servlet-3.0))
+ (&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.eventLogging-1.0))(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.requestTiming-1.0))(&(type=osgi.subsystem.feature)(osgi.identity=com.ibm.websphere.appserver.timedOperations-1.0)))"
+Subsystem-Name: Integrated Monitoring
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-Install-Policy: when-satisfied
+IBM-ProductID: com.ibm.websphere.appserver

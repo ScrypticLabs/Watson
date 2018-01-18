@@ -1,0 +1,18 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: ejb-3.2
+Subsystem-SymbolicName: com.ibm.websphere.appserver.ejb-3.2; visibility:=public
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.websphere.appserver.ejbLite-3.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.ejbHome-3.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.ejbPersistentTimer-3.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.ejbRemote-3.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.mdb-3.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.transaction-1.2; type="osgi.subsystem.feature"
+IBM-Feature-Version: 2
+Subsystem-Type: osgi.subsystem.feature
+IBM-App-ForceRestart: install,uninstall
+Subsystem-Name: Enterprise JavaBeans 3.2
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+Subsystem-Category: JavaEE7Application
+IBM-ProductID: com.ibm.websphere.appserver

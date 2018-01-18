@@ -1,0 +1,68 @@
+Subsystem-ManifestVersion: 1
+IBM-ShortName: jaxws-2.2
+Subsystem-SymbolicName: com.ibm.websphere.appserver.jaxws-2.2; visibility:=public
+Subsystem-Version: 1.0.0
+Subsystem-Content: com.ibm.ws.javaee.jaxws.2.2; version="[1,1.0.100)"; location:="dev/api/spec/,lib/", 
+ com.ibm.ws.javaee.wsdl4j.1.2; version="[1,1.0.100)"; location:="dev/api/spec/,lib/", 
+ com.ibm.ws.prereq.wsdl4j.api; version="[1,1.0.100)"; location:="dev/api/spec/,lib/", 
+ com.ibm.ws.javaee.ddmodel.wsbnd; version="[1,1.0.100)",
+ com.ibm.ws.jaxws.common; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-api.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-bindings-soap.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-bindings-xml.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-core.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-databinding-jaxb.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-frontend-jaxws.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-frontend-simple.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-ws-addr.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-transports-http.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-ws-policy.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.cxf-rt-management.2.6.2; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.xml-resolver.1.2; version="[1,1.0.100)", 
+ com.ibm.ws.org.apache.ws.xmlschema.core.2.0.3; version="[1,1.0.100)",
+ com.ibm.ws.org.apache.neethi.3.0.2; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.javax.mail-1.5; type="osgi.subsystem.feature",
+ com.ibm.ws.prereq.wsdl4j.1.6.2; version="[1,1.0.100)",
+ com.ibm.websphere.appserver.jaxb-2.2; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.classloading-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.injection-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.containerServices-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.globalhandler-1.0; type="osgi.subsystem.feature",
+ com.ibm.websphere.appserver.javax.servlet-3.0; ibm.tolerates:="3.1"; type="osgi.subsystem.feature"; apiJar=false,
+ com.ibm.ws.jaxws.tools.2.2.1; version="[1,1.0.100)",
+ com.ibm.ws.jaxws.tools.jdk8.2.2.6; version="[1,1.0.100)",
+ com.ibm.ws.jaxws.wsat; version="[1,1.0.100)",
+ wsgen; location:="bin/jaxws/wsgen"; type="file"; ibm.executable:="true"; ibm.file.encoding:="ebcdic",
+ wsgen.bat; location:="bin/jaxws/wsgen.bat"; type="file",
+ wsimport; location:="bin/jaxws/wsimport"; type="file"; ibm.executable:="true"; ibm.file.encoding:="ebcdic",
+ wsimport.bat; location:="bin/jaxws/wsimport.bat"; type="file",
+ ws-wsgen.jar; location:="bin/jaxws/tools/ws-wsgen.jar"; type="file",
+ ws-wsimport.jar; location:="bin/jaxws/tools/ws-wsimport.jar"; type="file", 
+ ibm-ws-bnd_1_0.xsd; location:="dev/api/ibm/schema/ibm-ws-bnd_1_0.xsd"; type="file"
+Subsystem-Type: osgi.subsystem.feature
+IBM-Feature-Version: 2
+IBM-App-ForceRestart: uninstall,install
+IBM-API-Package: javax.xml.ws.handler; type="spec",
+ javax.xml.ws.http; type="spec",
+ javax.xml.ws.spi; type="spec",
+ javax.xml.ws.handler.soap; type="spec",
+ javax.xml.ws.wsaddressing; type="spec",
+ javax.xml.ws.spi.http; type="spec",
+ javax.xml.ws; type="spec",
+ javax.xml.ws.soap; type="spec",
+ javax.wsdl.extensions.http; type="spec",
+ javax.wsdl.extensions.mime; type="spec",
+ javax.wsdl.extensions.schema; type="spec",
+ javax.wsdl.extensions.soap; type="spec",
+ javax.wsdl.extensions.soap12; type="spec",
+ javax.wsdl.extensions; type="spec",
+ javax.wsdl.factory; type="spec",
+ javax.wsdl.xml; type="spec",
+ javax.wsdl; type="spec",
+ org.apache.cxf.databinding;type="internal", 
+ org.apache.cxf.binding.soap.wsdl.extensions;type="internal"
+IBM-SPI-Package: com.ibm.wsspi.webservices.handler
+Subsystem-Name: Java Web Services 2.2
+Subsystem-Description: %description
+Subsystem-Localization: OSGI-INF/l10n/subsystem
+IBM-ProductID: com.ibm.websphere.appserver
